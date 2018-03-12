@@ -1,0 +1,33 @@
+@import "~sass/styles";
+.logo {
+    margin: 20px;
+    transition: all linear .5s;
+    animation: logos 5s;
+}
+
+.center {
+    display: block;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    max-width: 600px;
+    max-height: 400px;
+    // border: 1px solid #3d3d3d;
+    // border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+input.form-control {
+    background: transparent;
+}
+
+@keyframes logos {
+    0% {
+        opacity: .1
+    }
+    100% {
+        opacity: 1
+    }
+}

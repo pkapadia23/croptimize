@@ -4,5 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyD321PdeYaEGdvkyhANZrkLFMuQzD6EhBM",
+    authDomain: "croptimize-dev.firebaseapp.com",
+    databaseURL: "https://croptimize-dev.firebaseio.com",
+    projectId: "croptimize-dev",
+    storageBucket: "croptimize-dev.appspot.com",
+    messagingSenderId: "117800308463"
+  }
 };

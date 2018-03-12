@@ -1,0 +1,15 @@
+@import './fonts';
+@import './variables';
+@import './mixins';
+body {
+    min-height: 100vh;
+    background: $crop-bg-gradient;
+    background-attachment: fixed;
+}
+
+app-root,
+app-dashboard,
+app-home {
+    display: block;
+    min-height: 100vh;
+}
